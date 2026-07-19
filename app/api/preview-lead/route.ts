@@ -72,7 +72,7 @@ export async function POST(request: Request) {
   try {
     await sendSiteEmail({
       to,
-      subject: `[J&J Preview] Interest — ${parsed.businessName}`,
+      subject: `[Conner Digital] Preview interest — ${parsed.businessName}`,
       text: teamBody,
       replyTo: parsed.email,
     });

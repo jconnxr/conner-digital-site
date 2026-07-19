@@ -8,7 +8,7 @@ export const PREVIEW_PATH = "/preview";
 export const CONTACT_MAILTO =
   "mailto:john@connerdigital.com?subject=Meeting%20with%20Conner%20Digital";
 
-/** Primary line — hero, team, footer, sticky bar, chat, portfolio mocks */
+/** Primary line — hero, about, footer, sticky bar, chat, portfolio mocks */
 export const JOHN_PHONE_TEL = "tel:+14053123681";
 export const JOHN_PHONE_DISPLAY = "(405) 312-3681";
 

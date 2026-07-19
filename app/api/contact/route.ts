@@ -58,7 +58,7 @@ export async function POST(request: Request) {
   }
 
   const message = buildEmailMessage(parsed);
-  const subject = `[J&J Site] Build inquiry — ${parsed.businessName}`;
+  const subject = `[Conner Digital] Build inquiry — ${parsed.businessName}`;
   const to = process.env.CONTACT_TO!.trim();
 
   try {

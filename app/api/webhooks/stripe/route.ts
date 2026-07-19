@@ -46,7 +46,7 @@ export async function POST(request: Request) {
       try {
         await sendSiteEmail({
           to: process.env.CONTACT_TO!.trim(),
-          subject: `[J&J Stripe] Checkout complete — ${meta.product || session.mode}`,
+          subject: `[Conner Digital] Stripe checkout complete — ${meta.product || session.mode}`,
           text: lines.join("\n"),
           ...(email ? { replyTo: email } : {}),
         });
