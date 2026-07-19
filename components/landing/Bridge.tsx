@@ -34,9 +34,9 @@ export function Bridge() {
         </Reveal>
         <Reveal delay={0.08}>
           <p className="mt-6 text-lg leading-relaxed text-[var(--color-muted)] sm:mt-7">
-            We work with owners and teams across the state—rural towns, suburbs, and the metro—who want a credible
+            I work with owners and teams across the state—rural towns, suburbs, and the metro—who want a credible
             presence online, steadier leads, and the digital side of the business under control. Plain language, no buzzword
-            soup, and no layers between you and us.
+            soup, and no layers between you and me.
           </p>
         </Reveal>
       </div>

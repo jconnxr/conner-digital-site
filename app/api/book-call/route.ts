@@ -75,7 +75,7 @@ export async function POST(request: Request) {
   try {
     await sendSiteEmail({
       to,
-      subject: `[J&J Site] Call request — ${parsed.businessName} — ${parsed.preferredDate}`,
+      subject: `[Conner Digital] Call request — ${parsed.businessName} — ${parsed.preferredDate}`,
       text: message,
     });
   } catch (err) {

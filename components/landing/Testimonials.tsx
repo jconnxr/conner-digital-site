@@ -32,8 +32,7 @@ export function Testimonials() {
             What clients say
           </h2>
           <p className="mt-4 max-w-2xl text-lg text-[var(--color-muted)]">
-            Replace these placeholders with real names, businesses, and quotes when you have permission—we structured
-            the section so it’s easy to drop in Google-style reviews.
+            Real feedback from Oklahoma business owners I work with.
           </p>
         </Reveal>
 

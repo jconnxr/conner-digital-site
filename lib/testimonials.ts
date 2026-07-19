@@ -8,8 +8,9 @@ export type Testimonial = {
 };
 
 /**
- * Replace with real client quotes and permission to publish.
- * Placeholder structure demonstrates layout only.
+ * Client quotes for the homepage testimonials section.
+ * IMPORTANT: entries below are still layout placeholders (not real published reviews).
+ * Replace with real names, businesses, and quotes only when you have permission to publish.
  */
 export const testimonials: Testimonial[] = [
   {

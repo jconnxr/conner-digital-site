@@ -26,7 +26,7 @@ export function About() {
         <Reveal delay={0.06}>
           <p className="mt-4 max-w-2xl text-lg leading-relaxed text-[var(--color-muted)]">
             <span className="font-medium text-[var(--color-ink)]">John Conner</span> runs Conner Digital
-            from Oklahoma City. We work with local owners who want a credible website, steadier leads, and the digital
+            from Oklahoma City. I work with local owners who want a credible website, steadier leads, and the digital
             side of the business under control—without agency runaround or jargon you have to decode later.
           </p>
         </Reveal>
@@ -76,15 +76,15 @@ export function About() {
             </h3>
             <div className="mt-4 max-w-3xl space-y-4 text-sm leading-relaxed text-[var(--color-ink)] sm:text-base">
               <p>
-                Most owners we meet aren&apos;t behind because they don&apos;t care—they&apos;re behind because the
+                Most owners I meet aren&apos;t behind because they don&apos;t care—they&apos;re behind because the
                 online side piled up: an outdated site, scattered reviews, leads lost in texts and voicemails, ads that
-                never quite paid off. We focus on the basics that move the needle: look trustworthy when someone Googles
+                never quite paid off. I focus on the basics that move the needle: look trustworthy when someone Googles
                 you, make it easy to call or book, and keep follow-up from falling through the cracks.
               </p>
               <p>
                 Whether you&apos;re in a small town or the Oklahoma City metro, you get practical help in plain
                 language—websites, CRMs, and advertising wired together so your online presence supports how you actually
-                run the business. We scope honestly, ship in focused phases, and don&apos;t disappear after launch.
+                run the business. I scope honestly, ship in focused phases, and don&apos;t disappear after launch.
               </p>
               <p>
                 Conner Digital is a Christian company. That means straight answers, fair pricing, and treating your reputation

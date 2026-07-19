@@ -7,7 +7,7 @@ import { SectionFlowAccent } from "./SectionFlowAccent";
 const items = [
   {
     title: "Direct access",
-    body: "You work with us—not a rotating account roster or a black box.",
+    body: "You work with me—not a rotating account roster or a black box.",
   },
   {
     title: "Measured outcomes",
