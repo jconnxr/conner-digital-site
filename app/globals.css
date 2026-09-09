@@ -38,19 +38,6 @@ html {
   }
 }
 
-/* Gentle section snap on long pages (landing + long inner pages with id=main); off when reduced motion */
-@media (prefers-reduced-motion: no-preference) {
-  html {
-    scroll-snap-type: y proximity;
-  }
-
-  main#main > section,
-  main#main .snap-section-stack > section {
-    scroll-snap-align: center;
-    scroll-snap-stop: normal;
-  }
-}
-
 body {
   font-family: var(--font-family-sans);
   background-color: var(--color-cream);
