@@ -8,27 +8,15 @@ export type Testimonial = {
 };
 
 /**
- * Replace with real client quotes and permission to publish.
- * Placeholder structure demonstrates layout only.
+ * Real client quotes only. Never add invented, composite, or "representative"
+ * entries — publishing testimonials that aren't from real, consenting clients
+ * is an FTC problem, not just a credibility one.
+ *
+ * Add an entry only when you have (a) a real client, (b) their actual words,
+ * and (c) written permission to publish their name and business.
+ *
+ * While this list is empty the Testimonials section renders an honest
+ * "coming soon" state instead. Add the first entry and the card grid comes
+ * back automatically — no layout work needed.
  */
-export const testimonials: Testimonial[] = [
-  {
-    quote:
-      "They explained everything in plain English and our new site actually brings in calls—we’re not guessing anymore.",
-    name: "Local service owner",
-    role: "Oklahoma City metro",
-    rating: 5,
-  },
-  {
-    quote: "No runaround. We talk to the same person every time, and follow-up is fast.",
-    name: "Small business operator",
-    role: "Central Oklahoma",
-    rating: 5,
-  },
-  {
-    quote: "Finally have booking and leads in one place instead of scattered texts and voicemails.",
-    name: "Practice administrator",
-    role: "Tulsa area",
-    rating: 5,
-  },
-];
+export const testimonials: Testimonial[] = [];

@@ -4,7 +4,12 @@ export const BOOK_CALL_PATH = "/book-call";
 /** Interactive site preview builder funnel */
 export const PREVIEW_PATH = "/preview";
 
-/** Replace with your business email */
+/**
+ * TODO(john): verify this mailbox actually receives mail before the next deploy.
+ * connerdigital.com has no MX records, so mail to this address most likely bounces
+ * and every "Email us" CTA on the site is a dead end. Left as-is rather than
+ * guessing a replacement — set it to whatever inbox you really read.
+ */
 export const CONTACT_MAILTO =
   "mailto:john@connerdigital.com?subject=Meeting%20with%20Conner%20Digital";
 
